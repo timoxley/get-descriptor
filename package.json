@@ -1,0 +1,16 @@
+{
+  "name": "get-descriptor",
+  "version": "1.0.0",
+  "description": "prototype-aware Object.getOwnPropertyDescriptor",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "tape": "^2.13.3"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "Tim Oxley",
+  "license": "MIT"
+}
