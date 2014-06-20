@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "prototype-aware Object.getOwnPropertyDescriptor",
   "main": "index.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "tape": "^2.13.3"
   },
@@ -12,5 +11,23 @@
     "test": "node test"
   },
   "author": "Tim Oxley",
-  "license": "MIT"
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timoxley/get-descriptor.git"
+  },
+  "keywords": [
+    "inspect",
+    "object",
+    "descriptor",
+    "prototype",
+    "getowndescriptor"
+  ],
+  "bugs": {
+    "url": "https://github.com/timoxley/get-descriptor/issues"
+  },
+  "homepage": "https://github.com/timoxley/get-descriptor"
 }
