@@ -11,14 +11,13 @@
   "scripts": {
     "test": "node test && standard"
   },
-  "author": "Tim Oxley",
   "license": "MIT",
   "directories": {
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/timoxley/get-descriptor.git"
+    "url": "git+https://github.com/timoxley/get-descriptor.git"
   },
   "keywords": [
     "inspect",
@@ -30,5 +29,6 @@
   "bugs": {
     "url": "https://github.com/timoxley/get-descriptor/issues"
   },
-  "homepage": "https://github.com/timoxley/get-descriptor"
+  "homepage": "https://github.com/timoxley/get-descriptor",
+  "author": "Tim Oxley <secoif@gmail.com>"
 }
