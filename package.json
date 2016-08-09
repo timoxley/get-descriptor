@@ -5,10 +5,11 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "tape": "^2.13.3"
+    "standard": "^7.1.2",
+    "tape": "^4.6.0"
   },
   "scripts": {
-    "test": "node test"
+    "test": "node test && standard"
   },
   "author": "Tim Oxley",
   "license": "MIT",

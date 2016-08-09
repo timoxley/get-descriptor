@@ -1,7 +1,7 @@
 var test = require('tape')
 var getDescriptor = require('../')
 
-test('can get own property descriptor', function(t) {
+test('can get own property descriptor', function (t) {
   var descriptor = {
     value: 'hello',
     configurable: false,
@@ -14,7 +14,7 @@ test('can get own property descriptor', function(t) {
   t.end()
 })
 
-test('can get proto property descriptor', function(t) {
+test('can get proto property descriptor', function (t) {
   var descriptor = {
     value: 'hello',
     configurable: false,
@@ -27,9 +27,9 @@ test('can get proto property descriptor', function(t) {
   t.end()
 })
 
-test('can get proto property descriptor with setter/getter', function(t) {
-  function get() {}
-  function set() {}
+test('can get proto property descriptor with setter/getter', function (t) {
+  function get () {}
+  function set () {}
   var descriptor = {
     get: get,
     set: set
